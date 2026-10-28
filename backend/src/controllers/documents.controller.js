@@ -1,4 +1,4 @@
-const { createDocumentError } = require('../services/documentService');
+const { createDocumentError } = require('../services/documents.service');
 
 function getOwner(req) {
   const providedOwner = req.get('X-User-Id');
